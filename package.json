@@ -4,7 +4,8 @@
   "description": "Review Node.js ES6",
   "main": "main.js",
   "scripts": {
-    "start": "node main.js"
+    "start": "node main.js",
+    "test": "node ./modules/modules.js"
   },
   "author": "",
   "license": "ISC",
