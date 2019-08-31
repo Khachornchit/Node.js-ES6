@@ -2,9 +2,9 @@ const express = require('express');
 const mongoose = require('mongoose')
 const bodyParser = require('body-parser');
 const app = express();
+const port = 3031;
 
 app.set('view engine', 'ejs');
-
 app.use(bodyParser.urlencoded({ extended: false }));
 
 mongoose
@@ -15,7 +15,7 @@ mongoose
     .then(() => console.log('MongoDB Connected Successfully !'))
     .catch(err => console.log(err));
 
-const Item = require('./models/Item');
+const Item = require('./Models/Item');
 
 app.get('/', (req, res) => {
     Item.find()
@@ -30,7 +30,5 @@ app.post('/item/add', (req, res) => {
 
     newItem.save().then(item => res.redirect('/'));
 });
-
-const port = 3000;
 
 app.listen(port, () => console.log('Server running ...'));
