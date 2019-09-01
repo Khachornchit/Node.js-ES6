@@ -8,7 +8,8 @@
     "start1": "babel-node ./src/modules/http.js",
     "test": "node ./src/modules/modules.js",
     "build": "babel src -d public",
-    "server": "node ./public/modules/http.js"
+    "server": "node ./public/modules/http.js",
+    "file": "node ./src/files/process.js"
   },
   "author": "",
   "license": "ISC",
