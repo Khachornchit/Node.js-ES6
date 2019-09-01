@@ -9,7 +9,8 @@
     "test": "node ./src/modules/modules.js",
     "build": "babel src -d public",
     "server": "node ./public/modules/http.js",
-    "file": "node ./src/files/process.js"
+    "file": "node ./src/files/process.js",
+    "event": "node ./src/events/process.js"
   },
   "author": "",
   "license": "ISC",
