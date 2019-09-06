@@ -10,7 +10,8 @@
     "build": "babel src -d public",
     "server": "node ./public/modules/http.js",
     "file": "node ./src/files/process.js",
-    "event": "node ./src/events/process.js"
+    "event": "node ./src/events/process.js",
+    "firstcallback": "node ./src/overview/firstCallBack.js"
   },
   "author": "",
   "license": "ISC",
