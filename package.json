@@ -14,14 +14,18 @@
     "firstcallback": "node ./src/overview/firstCallBack.js",
     "avoidCallBackHellAsync": "node ./src/overview/avoidCallBackHellAsync.js",
     "promises": "node ./src/overview/asyncAwait/promises.js",
+    "simpleAsyncAwait": "node ./src/overview/asyncAwait/simpleAsyncAwait.js",
     "asyncAwait": "node ./src/overview/asyncAwait/asyncAwait.js",
-    "timer": "node ./src/overview/asyncAwait/timer.js"
+    "axios": "node ./src/overview/asyncAwait/axios.js",
+    "timer": "node ./src/overview/asyncAwait/timer.js",
+    "timeout": "node ./src/overview/asynchronous/timeout.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "async": "^3.1.0",
     "asyncawait": "^1.0.8",
+    "axios": "^0.19.0",
     "body-parser": "^1.19.0",
     "ejs": "^2.6.2",
     "express": "^4.17.1",
