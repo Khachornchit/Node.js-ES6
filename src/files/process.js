@@ -1,6 +1,6 @@
 console.log("Working with files");
 let fileManager = require('./fileManager');
-let fileName = __dirname + '/../../data/log.txt';
+let fileName = __dirname + '/../../data/log.json';
 fileManager.createFile(fileName);
 
 let data = {
