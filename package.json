@@ -18,7 +18,10 @@
     "asyncAwait": "node ./src/overview/asyncAwait/asyncAwait.js",
     "axios": "node ./src/overview/asyncAwait/axios.js",
     "timer": "node ./src/overview/asyncAwait/timer.js",
-    "timeout": "node ./src/overview/asynchronous/timeout.js"
+    "timeout": "node ./src/overview/asynchronous/timeout.js",
+    "spy": "node ./src/overview/unitTest/spy.js",
+    "stub": "node ./src/overview/unitTest/stub.js",
+    "mock": "node ./src/overview/unitTest/mock.js"
   },
   "author": "",
   "license": "ISC",
@@ -27,6 +30,7 @@
     "asyncawait": "^1.0.8",
     "axios": "^0.19.0",
     "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
     "ejs": "^2.6.2",
     "express": "^4.17.1",
     "mongoose": "^5.6.10",
@@ -36,6 +40,7 @@
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
-    "nodemon": "^1.19.1"
+    "nodemon": "^1.19.1",
+    "sinon": "^7.4.2"
   }
 }

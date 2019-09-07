@@ -6,7 +6,7 @@
 * When should you npm and when yarn?
 * What's a stub? Name a use case!
 * What's a test pyramid? Give an example!
-* What's your favorite HTTP framework and why?
+* HTTP framework
 * How can you secure your HTTP cookies against XSS attacks?
 * How can you make sure your dependencies are safe?
 
