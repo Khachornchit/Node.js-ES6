@@ -1,4 +1,7 @@
-# Node.js Overview
+# Node.js
+
+Node.js is an open source server-side Javascript run-time environment built on Chrome’s JavaScript Engine(V8). Node.js is used for building fast and scalable applications and is an event driven, non-blocking I/O model.
+
 * What is an error-first callback?
 * How can you avoid callback hells?
 * What are Promises?
@@ -9,8 +12,9 @@
 * HTTP framework
 * How can you secure your HTTP cookies against XSS attacks?
 * How can you make sure your dependencies are safe?
+* REPL stands for (READ, EVAL, PRINT, LOOP)
 
-## Node.js ES6 Review
+## Node.js ES6
 
 ## Node.js Docker-compose
 * docker-compose up -d

@@ -24,7 +24,8 @@
     "mock": "node ./src/overview/unitTest/mock.js",
     "codeSnippetUnhandledRejection": "node ./src/tests/unhandledRejection.js",
     "codeSnippetPromises": "node ./src/tests/promisesSnippet.js",
-    "codeSnippetImmediate": "node ./src/tests/immediate.js"
+    "codeSnippetImmediate": "node ./src/tests/immediate.js",
+    "testsTime": "node ./src/tests/time.js"
   },
   "author": "",
   "license": "ISC",
